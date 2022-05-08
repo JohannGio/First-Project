@@ -60,7 +60,7 @@
         <div class="container col-xxl-8 px-4 py-5">
             <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
                 <h1 class="text-center mb-3">Contact Me</h1>
-                <form action="#">
+                <form name="Contact-Form" data-netlify-recaptcha="true" method="post" data-netlyfy="true"></form>
                     <div class="row mb-1">
                         <div class="col">
                             <label class="form-label">First Name</label>
@@ -99,6 +99,7 @@
                                 aria-label="Message" required></textarea>
                         </div>
                     </div>
+                    <div data-netlify-recaptcha="true"></div>
                     <button type="submit" class="btn btn-primary mt-2">Submit</button>
                 </form>
                 <div class="container cool-xxl-8 px-4 py-5">
